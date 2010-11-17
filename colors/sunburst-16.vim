@@ -1,5 +1,5 @@
 " Vim color file
-" Colorscheme:  Sunburst-16: Sunburst for 16-color terminals 
+" Colorscheme:  sunburst-16: Sunburst for 16-color terminals 
 " Author:       Phil Tang <tangphillip@gmail.com>
 " Last Change:  2010 Nov 07
 
@@ -9,7 +9,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "Sunburst-16"
+let g:colors_name = "sunburst-16"
 
 hi Cursor  ctermfg=NONE ctermbg=lightgray
 hi Visual  ctermfg=NONE ctermbg=lightgray

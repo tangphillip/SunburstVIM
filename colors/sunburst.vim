@@ -1,5 +1,5 @@
 " Vim color file
-" Colorscheme:  Sunburst
+" Colorscheme:  sunburst
 " Maintainer:   Phil Tang <tangphillip@gmail.com>
 " Last Change:  2010 Nov 07
 
@@ -9,7 +9,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "Sunburst"
+let g:colors_name = "sunburst"
 
 hi Cursor  ctermfg=NONE ctermbg=248
 hi Visual  ctermfg=NONE ctermbg=240
