@@ -1,0 +1,7 @@
+This is a port of the TextMate theme Sunburst to VIM.  It comes in two flavors: one for 16 color terminals, and one for 256 color ones and GUI-baesd VIMs.  It also includes some modified syntax files for better highlighting.
+
+Primary dev: Phil Tang <tangphillip@gmail.com>
+
+INSTALL
+
+Copy `colors` and `syntax` into your ~/.vim/ folder.
