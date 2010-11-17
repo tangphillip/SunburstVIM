@@ -1,7 +1,7 @@
 " Vim color file
 " Colorscheme:  sunburst
 " Maintainer:   Phil Tang <tangphillip@gmail.com>
-" Last Change:  2010 Nov 15
+" Last Change:  2010 Nov 16
 " Version:      v1.3.1
 " Release Note: v1.0: Initial release
 "               v1.1: Added support for GUI-based editors
@@ -20,9 +20,9 @@ endif
 let g:colors_name = "sunburst"
 
 hi Normal          ctermfg=255  ctermbg=0                     guifg=#f8f8f8 guibg=#000000
-hi Cursor          ctermbg=248                                              guibg=#a7a7a7
-hi Visual          ctermbg=240                                              guibg=#2c3033
-hi CursorLine      ctermbg=233                                              guibg=#0d0d0d
+hi Cursor                       ctermbg=248                                 guibg=#a7a7a7
+hi Visual                       ctermbg=240                                 guibg=#2c3033
+hi CursorLine                   ctermbg=233                                 guibg=#0d0d0d
 hi LineNr          ctermfg=245  ctermbg=0                     guifg=#7c7c7c guibg=#000000
 hi VertSplit       ctermfg=246  ctermbg=233  cterm=none       guifg=#949494 guibg=#121212 gui=none
 hi MatchParen      ctermfg=179  ctermbg=none cterm=none       guifg=#e28964 guibg=#000000 gui=none
@@ -65,7 +65,7 @@ hi DiffDelete      ctermfg=none ctermbg=52                    guifg=#f8f8f8 guib
 hi DiffText        ctermfg=0                                  guifg=#000000
 hi Error           ctermfg=0    ctermbg=209                   guifg=#000000 guibg=#e28964
 hi Float           ctermfg=25                                 guifg=#3387cc
-hi Function        ctermfg=111                                guifg=#89bdff
+hi Function        ctermfg=cyan ctermfg=111                                guifg=#89bdff
 hi Identifier      ctermfg=25                cterm=none       guifg=#3387cc               gui=none
 hi Keyword         ctermfg=209                                guifg=#e28964
 hi Label           ctermfg=209                                guifg=#65b042
@@ -73,7 +73,7 @@ hi NonText         ctermfg=238  ctermbg=233                   guifg=#2e343a guib
 hi Number          ctermfg=25                                 guifg=#3387cc
 hi Operator        ctermfg=209                                guifg=#e28964
 hi PreProc         ctermfg=209                                guifg=#e28964
-hi Special         ctermfg=193                                guifg=#f8f8f8
+hi Special         ctermfg=193                                guifg=#ddf2a4
 hi SpecialKey      ctermfg=236  ctermbg=233                   guifg=#2e343a guibg=#0d0d0d
 hi Statement       ctermfg=209               cterm=none       guifg=#e28964               gui=none
 hi StorageClass    ctermfg=113                                guifg=#87d75f
@@ -107,13 +107,7 @@ hi rubyClassVariable             ctermfg=69                                 guif
 hi rubyOperator                  ctermfg=209                                guifg=#e28964
 hi rubyException                 ctermfg=209                                guifg=#e28964
 hi rubyPseudoVariable            ctermfg=69                                 guifg=#3e87e3
-hi rubyRailsUserClass            ctermfg=245                                guifg=#aeaeae
-hi rubyRailsARAssociationMethod  ctermfg=186                                guifg=#dad085
-hi rubyRailsARMethod             ctermfg=186                                guifg=#dad085
-hi rubyRailsRenderMethod         ctermfg=186                                guifg=#dad085
-hi rubyRailsMethod               ctermfg=186                                guifg=#dad085
 hi erubyComment                  ctermfg=245  ctermbg=none                  guifg=#aeaeae guibg=#000000 gui=italic
-hi erubyRailsMethod              ctermfg=186                                guifg=#dad085
 hi htmlTag                       ctermfg=111                                guifg=#89bdff
 hi htmlEndTag                    ctermfg=111                                guifg=#89bdff
 hi htmlTagName                   ctermfg=111                                guifg=#89bdff
@@ -121,7 +115,6 @@ hi htmlArg                       ctermfg=111                                guif
 hi htmlSpecialChar               ctermfg=25                                 guifg=#3387cc
 hi javaScriptFunction            ctermfg=113                                guifg=#87d75f
 hi javaScriptFuncName            ctermfg=186                                guifg=#dad085
-hi javaScriptRailsFunction       ctermfg=186                                guifg=#dad085
 hi javaScriptBraces              ctermfg=255                                guifg=#f8f8f8
 hi javaScriptNull                ctermfg=25                                 guifg=#3387cc
 hi javaScriptValue               ctermfg=25                                 guifg=#3387cc
@@ -175,3 +168,13 @@ hi cssValueAngle                 ctermfg=172                                guif
 hi cssValueTime                  ctermfg=172                                guifg=#dd7b3b
 hi cssValueFrequency             ctermfg=172                                guifg=#dd7b3b
 hi cssBraces                     ctermfg=255                                guifg=#f8f8f8
+
+
+hi rubyRailsUserClass            ctermfg=245                                guifg=#aeaeae
+hi rubyRailsARAssociationMethod  ctermfg=186                                guifg=#dad085
+hi rubyRailsARMethod             ctermfg=186                                guifg=#dad085
+hi rubyRailsRenderMethod         ctermfg=186                                guifg=#dad085
+hi rubyRailsMethod               ctermfg=186                                guifg=#dad085
+hi erubyRailsMethod              ctermfg=186                                guifg=#dad085
+hi javaScriptRailsFunction       ctermfg=186                                guifg=#dad085
+
