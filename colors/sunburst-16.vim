@@ -2,6 +2,7 @@
 " Colorscheme:  sunburst-16: Sunburst for 16-color terminals 
 " Author:       Phil Tang <tangphillip@gmail.com>
 " Last Change:  2010 Nov 07
+" Version:      1.0
 
 highlight clear
 
