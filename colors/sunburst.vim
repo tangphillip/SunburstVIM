@@ -1,15 +1,16 @@
 " Vim color file
 " Colorscheme:  sunburst: a port of TextMate's sunburst for vim
 " Maintainer:   Phil Tang <tangphillip@gmail.com>
-" Last Change:  2010 Nov 30, v1.4
+" Last Change:  2010 Dec 11, v1.4.1
 " License:      GPL <http://www.gnu.org/licenses/gpl.html>
-" Release Note: v1.4: Combined the colorschemes into a single sunburst.vim
-"               v1.3: Fixed menu and parentheses' coloring;
-"                     Added spellcheck and diff support;
-"                     Changed 16 color version into 8 colors
-"               v1.2: Fixed preprocessor colors, added PHP support
-"               v1.1: Added support for GUI-based editors
-"               v1.0: Initial release
+" Release Note: v1.4.1: Slightly adjusted vimdiff colors
+"               v1.4:   Combined the colorschemes into a single sunburst.vim
+"               v1.3:   Fixed menu and parentheses' coloring;
+"                       Added spellcheck and diff support;
+"                       Changed 16 color version into 8 colors
+"               v1.2:   Fixed preprocessor colors, added PHP support
+"               v1.1:   Added support for GUI-based editors
+"               v1.0:   Initial release
 " Testers:      Ricky Mondello and David Whitney
 " Credits:      Jani Nurminen <slinky@iki.fi> - provied a template for these notes with his "Zenburn" theme. 
 
@@ -64,7 +65,7 @@ if has("gui_running") || t_Co >= 256
     hi DiffAdd                      ctermfg=none ctermbg=22                    guifg=#f8f8f8 guibg=#253b22
     hi DiffChange                   ctermfg=none ctermbg=58                    guifg=#f8f8f8 guibg=#4a410d
     hi DiffDelete                   ctermfg=none ctermbg=52                    guifg=#f8f8f8 guibg=#420e09
-    hi DiffText                     ctermfg=0                                  guifg=#000000
+    hi DiffText                     ctermfg=0    ctermbg=209                   guifg=#000000 guibg=#e28964
     hi Error                        ctermfg=0    ctermbg=209                   guifg=#000000 guibg=#e28964
     hi Float                        ctermfg=25                                 guifg=#3387cc
     hi Function                     ctermfg=111                                guifg=#89bdff
