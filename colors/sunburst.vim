@@ -1,9 +1,10 @@
 " Vim color file
 " Colorscheme:  sunburst: a port of TextMate's sunburst for vim
 " Maintainer:   Phil Tang <tangphillip@gmail.com>
-" Last Change:  2010 Dec 11, v1.4.1
+" Last Change:  2011 Jan 31, v1.4.2
 " License:      GPL <http://www.gnu.org/licenses/gpl.html>
-" Release Note: v1.4.1: Slightly adjusted vimdiff colors
+" Release Note: v1.4.2: Added support for tabs, credited Stanley Rost with designing Sunburst
+"               v1.4.1: Slightly adjusted vimdiff colors
 "               v1.4:   Combined the colorschemes into a single sunburst.vim
 "               v1.3:   Fixed menu and parentheses' coloring;
 "                       Added spellcheck and diff support;
@@ -12,7 +13,8 @@
 "               v1.1:   Added support for GUI-based editors
 "               v1.0:   Initial release
 " Testers:      Ricky Mondello and David Whitney
-" Credits:      Jani Nurminen <slinky@iki.fi> - provied a template for these notes with his "Zenburn" theme. 
+" Credits:      Stanley Rost <soryu2@gmail.com> - original designer of Sunburst for TextMate
+"               Jani Nurminen <slinky@iki.fi>   - provied a template for these notes with his 'Zenburn' theme. 
 
 set background=dark
 highlight clear
@@ -48,6 +50,10 @@ if has("gui_running") || t_Co >= 256
     hi WarningMsg                   ctermfg=209  ctermbg=0    cterm=none       guifg=#e28964 guibg=#000000 gui=none
     hi ErrorMsg                     ctermfg=209  ctermbg=0    cterm=none       guifg=#e28964 guibg=#000000 gui=none
     hi ModeMsg                                                cterm=none                                   gui=none
+
+    hi TabLine                      ctermfg=240  ctermbg=235  cterm=none
+    hi TabLineFill                  ctermfg=235  ctermbg=235
+    hi TabLineSel                   ctermfg=255  ctermbg=237  cterm=none
 
     hi SpellBad                     ctermfg=0    ctermbg=209  cterm=none       guifg=#000000 guibg=#e28964 gui=none
     hi SpellCap                     ctermfg=0    ctermbg=113  cterm=none       guifg=#000000 guibg=#87d75f gui=none
