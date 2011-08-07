@@ -1,8 +1,9 @@
 This is a port of the TextMate theme Sunburst to VIM, supporting 8, 16, and 256-color terminals and GUI-based editors.  It also includes some modified syntax files for better highlighting.
 
-Last Change:  2011 Jan 31, v1.4.2
+Last Change:  2011 Aug 06, v1.4.3
 License:      GPL <http://www.gnu.org/licenses/gpl.html>
-Release Note: v1.4.2: Added support for tabs, credited Stanley Rost with designing Sunburst
+Release Note: v1.4.3: Removed the background color for non-text areas & special characters
+              v1.4.2: Added support for tabs, credited Stanley Rost with designing Sunburst
               v1.4.1: Slightly adjusted vimdiff colors
               v1.4:   Combined the colorschemes into a single sunburst.vim
               v1.3:   Fixed menu and parentheses' coloring;

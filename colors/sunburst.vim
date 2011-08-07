@@ -3,7 +3,8 @@
 " Maintainer:   Phil Tang <tangphillip@gmail.com>
 " Last Change:  2011 Jan 31, v1.4.2
 " License:      GPL <http://www.gnu.org/licenses/gpl.html>
-" Release Note: v1.4.2: Added support for tabs, credited Stanley Rost with designing Sunburst
+" Release Note: v1.4.3: Removed the background color for non-text areas & special characters
+"               v1.4.2: Added support for tabs, credited Stanley Rost with designing Sunburst
 "               v1.4.1: Slightly adjusted vimdiff colors
 "               v1.4:   Combined the colorschemes into a single sunburst.vim
 "               v1.3:   Fixed menu and parentheses' coloring;
@@ -78,12 +79,12 @@ if has("gui_running") || t_Co >= 256
     hi Identifier                   ctermfg=25                cterm=none       guifg=#3387cc               gui=none
     hi Keyword                      ctermfg=209                                guifg=#e28964
     hi Label                        ctermfg=209                                guifg=#65b042
-    hi NonText                      ctermfg=238  ctermbg=233                   guifg=#2e343a guibg=#0d0d0d
+    hi NonText                      ctermfg=238                                guifg=#2e343a              
     hi Number                       ctermfg=25                                 guifg=#3387cc
     hi Operator                     ctermfg=209                                guifg=#e28964
     hi PreProc                      ctermfg=209                                guifg=#e28964
     hi Special                      ctermfg=193                                guifg=#ddf2a4
-    hi SpecialKey                   ctermfg=236  ctermbg=233                   guifg=#2e343a guibg=#0d0d0d
+    hi SpecialKey                   ctermfg=236                                guifg=#2e343a              
     hi Statement                    ctermfg=209               cterm=none       guifg=#e28964               gui=none
     hi StorageClass                 ctermfg=113                                guifg=#87d75f
     hi String                       ctermfg=70                                 guifg=#65b042
