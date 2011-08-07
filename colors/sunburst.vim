@@ -78,12 +78,12 @@ if has("gui_running") || t_Co >= 256
     hi Identifier                   ctermfg=25                cterm=none       guifg=#3387cc               gui=none
     hi Keyword                      ctermfg=209                                guifg=#e28964
     hi Label                        ctermfg=209                                guifg=#65b042
-    hi NonText                      ctermfg=238  ctermbg=233                   guifg=#2e343a guibg=#0d0d0d
+    hi NonText                      ctermfg=238                                guifg=#2e343a              
     hi Number                       ctermfg=25                                 guifg=#3387cc
     hi Operator                     ctermfg=209                                guifg=#e28964
     hi PreProc                      ctermfg=209                                guifg=#e28964
     hi Special                      ctermfg=193                                guifg=#ddf2a4
-    hi SpecialKey                   ctermfg=236  ctermbg=233                   guifg=#2e343a guibg=#0d0d0d
+    hi SpecialKey                   ctermfg=236                                guifg=#2e343a              
     hi Statement                    ctermfg=209               cterm=none       guifg=#e28964               gui=none
     hi StorageClass                 ctermfg=113                                guifg=#87d75f
     hi String                       ctermfg=70                                 guifg=#65b042
