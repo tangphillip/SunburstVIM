@@ -1,5 +1,6 @@
 This is a port of the TextMate theme Sunburst to VIM, supporting 8, 16, and 256-color terminals and GUI-based editors.  It also includes some modified syntax files for better highlighting.
 
+Maintainer:   Phil Tang <tangphillip@gmail.com>
 Last Change:  2011 Aug 06, v1.4.3
 License:      GPL <http://www.gnu.org/licenses/gpl.html>
 Release Note: v1.4.3: Removed the background color for non-text areas & special characters
